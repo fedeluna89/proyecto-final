@@ -67,7 +67,7 @@ main{
 }
 section{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: auto;
 }
 .row{
     display: flex;
@@ -144,13 +144,14 @@ footer{
     font-family: 'Shadows Into Light', cursive;
 }
 
-@media(max-width:520px){
+@media only screen and (min-width:1024px){
     section{
-        grid-template-columns: auto;
+        grid-template-columns: 70% 30px;
     }
-    .conter-menu{
+    /* .conter-menu{
         display: none;
-    }
+    } */
+    
     .nota{
         display: none;
     }
