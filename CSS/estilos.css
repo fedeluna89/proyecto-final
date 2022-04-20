@@ -10,7 +10,7 @@
     "header"
     "main"
     "footer";
-} */
+}
 header{
     grid-area: header;
 }
@@ -19,7 +19,7 @@ main{
 }
 footer{
     grid-area: footer;
-}
+} */
 /* header */
 
 .foto{
@@ -73,6 +73,8 @@ section{
     display: flex;
     gap: 10px;
 }
+
+
 
 /* footer */
 
@@ -144,13 +146,13 @@ footer{
     font-family: 'Shadows Into Light', cursive;
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (max-width:800px){
     section{
-        grid-template-columns: 70% 30px;
+        grid-template-columns: auto;
     }
-    /* .conter-menu{
+    .conter-menu{
         display: none;
-    } */
+    }
     
     .nota{
         display: none;
