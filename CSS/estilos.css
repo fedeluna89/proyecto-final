@@ -143,6 +143,7 @@ footer{
 }
 
 /* boton volver al inicio */
+
 .boton{
     display: flex;
     justify-items: right;
