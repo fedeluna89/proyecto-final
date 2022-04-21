@@ -41,26 +41,47 @@
         <main>
             <section>
                 <div class="main">
-                    <div class="cuerpo">
-                        <div class="titulo">
-                            <h1>Sobre Nosotros</h1>
+                    <div class="cuerpo-tabla">
+                        <div class="titulo-contacto">
+                            <h1>Contactanos</h1>
                         </div>
-                        <div class="conteiner">
-                            <div class="row">
-                                <div class="coll-md-4">
-                                    <img src="../imagenes/fede.jpeg" alt="denver" width="200">
-                                    <p class="pie-foto">
-                                        <h6>Federico Luna fundador de Bandeja Pasada</h6>
-                                    </p>
-                                </div>
-                                <div class="coll-md-8">
-                                    <p class="texto" >
-                                        Bandeja Pasada es un sitio creado en Marzo del 2022 por el periodista Federico Luna.
-                                        Con el fin de mantenernos a todos bien al tanto del basquet de cordobes y de todas las novedades que 
-                                        afecten a los jugadores de nuestra provincia en la NBA. 
-                                    </p>
-                                </div>
-                            </div>
+
+                        <div id="completo">
+                            <div class="formulario">
+                                <table cellpadding="20" cellspacing="0" >
+                                    <form action="" method="post">
+                                        <tr>
+                                            <td>Nombre</td>
+                                            <td><input type="text" value="" placeholder="Nombre"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Apellido</td>
+                                            <td><input type="text" value="" placeholder="Apellido"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Genero</td>
+                                            <td>
+                                                <input type="radio" name="genero" id="masculino 1"  value="Masculino">Masculino
+                                                <input type="radio" name="genero" id="femenino 1" value="Femenino">Femenino
+                                                <input type="radio" name="genero" id="Binario 1" value="Binario">Binario
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td><input type="email" value="" placeholder="Email"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Memsaje</td>
+                                            <td><textarea></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <div class="botones-contacto">
+                                                <td><input type="submit" value="Enviar"> <input type="reset" value="Limpiar"></td> 
+                                            </div>
+                                        </tr>
+                                    </form>
+                                </table>
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -99,6 +120,7 @@
                 </div>
             </div>
         </footer>
-    </div>    
+    </div>
+    
 </body>
-</html>        
+</html>
