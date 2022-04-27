@@ -1,0 +1,34 @@
+ul{
+    width: 100%;
+    list-style: none;
+}
+.conter-menu{
+    background-color: #F14100;
+    display: flex;
+    justify-content: center;
+    .menu{
+        display: grid;
+        grid-column: auto auto;
+        grid-template-rows: auto;
+        display: flex;
+        justify-content: center;
+        empty-cells: inherit;
+        li{
+            float: left;
+            text-align:center;
+            a{
+                background-color: #F14100;
+                color: white;
+                padding: 10px;
+                display: inline-block; 
+                text-decoration: none;
+                min-width: 100px;
+                font-family: 'Comic Neue', cursive; 
+                :hover{
+                    color: black;
+                    background-color: #eaeaea;
+                }
+                }
+            }
+        }
+    }
