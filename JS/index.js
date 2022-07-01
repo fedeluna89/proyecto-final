@@ -8,8 +8,12 @@ const productos = [
     let filtro = productos.filter(elemento => elemento.precio < 6000);
     console.log(filtro);
 
-    let dato = prompt("ingresa el nombre del producto a consultar").toLowerCase();
+    let dato = prompt("ingresa el nombre del equipo que te interes").toLowerCase();
 
     let articulo = productos.find(elemento => elemento.nombre === dato);
-    alert(`el precio del prodicto ${dato} es ${articulo.precio}`);
+    alert(`la camiseta oficial de ${dato} tiene el valor de ${articulo.precio} pesos`);
+
+    alert("gracias por tu consulta");
+
+    
 
