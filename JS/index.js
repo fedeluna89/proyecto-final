@@ -13,5 +13,3 @@ const productos = [
     let articulo = productos.find(elemento => elemento.nombre === dato);
     alert(`el precio del prodicto ${dato} es ${articulo.precio}`);
 
-
-    
