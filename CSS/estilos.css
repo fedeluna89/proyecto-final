@@ -121,6 +121,16 @@ footer {
 .titulos-secciones {
   font-family: 'Shadows Into Light', cursive; }
 
+.tiendaMargen {
+  margin-top: 7px; }
+
+.botonTienda {
+  background-color: #c1a4712a;
+  color: white;
+  font-family: 'Comic Neue', cursive;
+  border-radius: 3px;
+  text-align: right; }
+
 @media only screen and (max-width: 800px) {
   section {
     grid-template-columns: auto; }
