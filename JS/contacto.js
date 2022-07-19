@@ -1,7 +1,11 @@
-const respuestaClick = () => {
-    alert("tus datos se enviaron correctamente");
-}
+let botonEnviar = document.getElementById("confirmar");
 
-let botonEnviar = document.getElementById("enviar2");
-
-botonEnviar.addEventListener("enviar2", respuestaClick);
+botonEnviar.addEventListener(`click`, () => {
+    Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "Tu consulta se envio correctamente",
+        showConfirmButton: false,
+        timer: 4000,
+        });
+});

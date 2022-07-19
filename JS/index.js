@@ -9,21 +9,14 @@ productos.push(
 )
 console.log(productos);
 
-    let dato = prompt("ingresa el nombre del equipo que te interes").toLowerCase();
-
-    let articulo = productos.find(elemento => elemento.nombre === dato);
-    alert(`la camiseta oficial de ${dato} tiene el valor de ${articulo.precio} pesos`);
-    /* let contenedor = document.getElementById("contenedor");
-    let dato = prompt("ingresa el nombre del equipo que te interes").toLowerCase();
-
-    let filtrados = productos.filter(elemento => elemento.id === dato);
-
-    for(const producto of filtrados){
-        let item = document.createElement("div");
-        item.innerHTML =   `<h5>id: ${producto.id}
-                            <p>nombre: ${producto.nombre}</p>
-                            <b>precio: ${producto.precio}</b>`
-
-        contenedor.append(item);
-    } */
-    alert("gracias por tu consulta");
+let btn = document.getElementById("carrito");
+    
+    btn.addEventListener(`click`, () => {
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Agregaste a carrito",
+            showConfirmButton: false,
+            timer: 2000,
+            });
+    }) 
