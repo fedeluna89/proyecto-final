@@ -10,6 +10,9 @@ productos.push(
 console.log(productos);
 
 let btn = document.getElementById("carrito");
+let btn2 = document.getElementById("carrito2");
+let btn3 = document.getElementById("carrito3");
+let btn4 = document.getElementById("carrito4");
     
     btn.addEventListener(`click`, () => {
         Swal.fire({
@@ -19,4 +22,34 @@ let btn = document.getElementById("carrito");
             showConfirmButton: false,
             timer: 2000,
             });
-    }) 
+    }); 
+
+    btn2.addEventListener(`click`, () => {
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Agregaste a carrito",
+            showConfirmButton: false,
+            timer: 2000,
+            });
+    });
+
+    btn3.addEventListener(`click`, () => {
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Agregaste a carrito",
+            showConfirmButton: false,
+            timer: 2000,
+            });
+    });
+
+    btn4.addEventListener(`click`, () => {
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Agregaste a carrito",
+            showConfirmButton: false,
+            timer: 2000,
+            });
+    });
